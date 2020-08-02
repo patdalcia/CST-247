@@ -1,0 +1,25 @@
+﻿@model Tuple<List<CST_247_Topic_5_Activity_3.Models.CustomerModel>, IEnumerable<CST_247_Topic_5_Activity_3.Models.CustomerModel>>
+
+@{
+    Layout = "_Layout.cshtml";
+}
+
+<title>@ViewBag.Title</title>
+<div>
+    <div>
+        <h2>@Html.Label("Customer Details")</h2>
+        <p>
+            @Html.Label("Please select a Customer")
+        </p>
+    </div>
+    <div>
+        @using (Html.BeginForm("OnSelectCustomer", "Customer", FormMethod.Post, new { name = "myform", id = "myform" }))
+        {
+            for (int i = 0; i < Model.Item1.Count(); i++)
+            {
+                <input type="radio" asp-for="Customer" value=@Model.Item1[i].id.ToString() onclick="myform" />@Html.Label(Model.Item1[i].name)<br />
+            }
+        }
+    </div>
+</div>
+

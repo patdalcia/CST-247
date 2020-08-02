@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="@Url.Content("~/Styles/StyleSheet.css")" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @RenderPage("_Header.cshtml")
+        <div class="container body-content">
+            @RenderBody()
+        </div>
+
+        <hr />
+        @RenderPage("_Footer.cshtml")
+    </div>
+</body>
+</html>

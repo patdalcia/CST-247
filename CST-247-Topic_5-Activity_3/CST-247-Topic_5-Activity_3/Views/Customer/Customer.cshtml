@@ -1,0 +1,18 @@
+﻿@model Tuple<List<CST_247_Topic_5_Activity_3.Models.CustomerModel>, IEnumerable<CST_247_Topic_5_Activity_3.Models.CustomerModel>>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Customer</title>
+</head>
+<body>
+    <div id="customerInfo">
+        @Html.Partial("_CustomerDetails", Model.Item2)
+    </div>
+</body>
+</html>

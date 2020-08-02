@@ -23,7 +23,7 @@ namespace Activity1Part3.Services.Data
                 {
                     if (dr.HasRows)
                     {
-                        return false;
+                        return true;
                     }
                     else
                     {
