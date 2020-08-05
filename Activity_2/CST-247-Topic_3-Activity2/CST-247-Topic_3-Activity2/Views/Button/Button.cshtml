@@ -1,0 +1,50 @@
+﻿@model List<CST_247_Topic_3_Activity2.Models.ButtonModel>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="@Url.Content("~/Styles/StyleSheet.css")" rel="stylesheet" type="text/css" />
+    <title>Button</title>
+</head>
+<body>
+    <div id="ParentContainer">
+
+        <div id="LabelOne">
+            @Html.Label("Welcome to Razor")
+        </div>
+        <div id="LabelTwo">
+            @Html.Label("Play With Buttons: ")
+        </div>
+        @using (Html.BeginForm("OnButtonClick", "Button", FormMethod.Post))
+        {
+            <button type="submit" name="mine" value="1">
+                @if (Model[0].State)
+                {
+                    <img src="~/Images/onSwitch.png" />
+                }
+                else
+                {
+                    <img src="~/Images/offSwitch.png" />
+                }
+            </button> <br />
+            <button type="submit" name="mine" value="2">
+                @if (Model[1].State)
+                {
+                    <img src="~/Images/onSwitch.png" />
+                }
+                else
+                {
+                    <img src="~/Images/offSwitch.png" />
+                }
+            </button> <br />
+        }
+
+    </div>
+</body>
+</html>

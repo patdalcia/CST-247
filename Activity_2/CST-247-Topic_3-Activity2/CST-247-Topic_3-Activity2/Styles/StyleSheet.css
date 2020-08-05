@@ -1,0 +1,22 @@
+﻿body {
+}
+
+#ParentContainer {
+    display: block;
+}
+
+
+#LabelOne {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+#LabelTwo {
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}

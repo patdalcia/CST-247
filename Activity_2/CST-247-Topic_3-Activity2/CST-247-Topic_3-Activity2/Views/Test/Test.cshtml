@@ -1,0 +1,34 @@
+﻿
+@model List<CST_247_Topic_3_Activity2.Models.UserModel>
+
+@{
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+}
+
+    <div id="ParentContainer">
+
+        <div id="LabelOne">
+            @Html.Label("Welcome to Razor")
+        </div>
+        <div id="LabelTwo">
+            @Html.Label("My Customers are:")
+        </div>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email Address</th>
+                <th>Phone Number</th>
+            </tr>
+            @foreach (var d in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(m => d.Name)</td>
+                    <td>@Html.DisplayFor(m => d.EmailAddress)</td>
+                    <td>@Html.DisplayFor(m => d.PhoneNumber)</td>
+                </tr>
+            }
+        </table>
+    </div>
+
+    @Html.ActionLink("Refresh Page", ".")
