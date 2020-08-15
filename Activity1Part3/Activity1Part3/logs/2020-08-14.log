@@ -1,0 +1,5 @@
+2020-08-14 20:05:23.9152        INFO Users were not found in the cache. I got them from the data source (slow) at 8/14/2020 8:05:23 PM
+2020-08-14 20:05:31.9930        INFO Users were found in the cache (fast) at 8/14/2020 8:05:31 PM
+2020-08-14 20:06:00.5238        INFO Users were found in the cache (fast) at 8/14/2020 8:06:00 PM
+2020-08-14 20:06:09.4446        INFO Users were found in the cache (fast) at 8/14/2020 8:06:09 PM
+2020-08-14 20:07:02.1849        INFO Users were not found in the cache. I got them from the data source (slow) at 8/14/2020 8:07:02 PM

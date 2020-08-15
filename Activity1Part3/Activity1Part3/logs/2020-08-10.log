@@ -1,0 +1,3 @@
+2020-08-10 22:04:05.9986        INFOEntering LoginController.Login()
+2020-08-10 22:04:05.9986        INFOParameters are:{"Username":"test","Password":"test"}
+2020-08-10 22:04:05.9986        INFOExit LoginController.Login() with login passing

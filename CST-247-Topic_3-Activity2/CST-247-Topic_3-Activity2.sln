@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CST-247-Topic_3-Activity2", "CST-247-Topic_3-Activity2\CST-247-Topic_3-Activity2.csproj", "{D507A9A7-120F-473C-A626-854C9FB98792}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldService", "..\HelloWorldService\HelloWorldService.csproj", "{A9850D8B-CC6E-497F-9E21-E1127FCBBD2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D507A9A7-120F-473C-A626-854C9FB98792}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D507A9A7-120F-473C-A626-854C9FB98792}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D507A9A7-120F-473C-A626-854C9FB98792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9850D8B-CC6E-497F-9E21-E1127FCBBD2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9850D8B-CC6E-497F-9E21-E1127FCBBD2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9850D8B-CC6E-497F-9E21-E1127FCBBD2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9850D8B-CC6E-497F-9E21-E1127FCBBD2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

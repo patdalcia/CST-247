@@ -70,3 +70,6 @@ C:\Users\thegr\Desktop\CST-247\Activity1Part3\Activity1Part3\obj\Debug\Activity1
 C:\Users\thegr\Desktop\CST-247\Activity1Part3\Activity1Part3\obj\Debug\Activity1Part3.csproj.CopyComplete
 C:\Users\thegr\Desktop\CST-247\Activity1Part3\Activity1Part3\obj\Debug\Activity1Part3.dll
 C:\Users\thegr\Desktop\CST-247\Activity1Part3\Activity1Part3\obj\Debug\Activity1Part3.pdb
+C:\Users\thegr\Desktop\CST-247\Activity1Part3\Activity1Part3\bin\NLog.config
+C:\Users\thegr\Desktop\CST-247\Activity1Part3\Activity1Part3\bin\NLog.dll
+C:\Users\thegr\Desktop\CST-247\Activity1Part3\Activity1Part3\bin\NLog.xml

@@ -24,6 +24,16 @@ namespace Activity1Part3
                 defaults: new{ controller = "Login", action = "Index", id = UrlParameter.Optional
                 }
             );
+            routes.MapRoute(
+                name: "Test",
+                url: "{Test}",
+                defaults: new
+                {
+                    controller = "Test",
+                    action = "Index",
+                    id = UrlParameter.Optional
+                }
+            );
         }
     }
 }
