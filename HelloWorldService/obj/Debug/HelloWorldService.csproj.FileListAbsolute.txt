@@ -23,3 +23,15 @@ C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\System.Web.WebPages.Razor.x
 C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\System.Web.Razor.xml
 C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\System.Web.WebPages.Deployment.xml
 C:\Users\thegr\Desktop\CST-247\HelloWorldService\obj\Debug\HelloWorldService.csproj.CopyComplete
+C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\WebActivatorEx.dll
+C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\Unity.Abstractions.dll
+C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\Unity.Container.dll
+C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\Unity.Mvc.dll
+C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\Unity.Abstractions.pdb
+C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\Unity.Container.pdb
+C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\Unity.Mvc.pdb
+C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\Unity.Mvc.xml
+C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\thegr\Desktop\CST-247\HelloWorldService\bin\System.Runtime.CompilerServices.Unsafe.xml

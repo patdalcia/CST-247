@@ -34,6 +34,27 @@ namespace Activity1Part3
                     id = UrlParameter.Optional
                 }
             );
+
+            routes.MapRoute(
+                name: "TestLoggingService1",
+                url: "{TestLoggingService1}",
+                defaults: new{ controller = "TestLoggingService1", action = "Index", id = UrlParameter.Optional
+                }
+            );
+
+            routes.MapRoute(
+                name: "TestLoggingService2",
+                url: "{TestLoggingService2}",
+                defaults: new{ controller = "TestLoggingService2", action = "Index", id = UrlParameter.Optional
+                }
+            );
+
+            routes.MapRoute(
+                name: "TestLoggingService3",
+                url: "{TestLoggingService3}",
+                defaults: new{ controller = "TestLoggingService3", action = "Index", id = UrlParameter.Optional
+                }
+            );
         }
     }
 }
